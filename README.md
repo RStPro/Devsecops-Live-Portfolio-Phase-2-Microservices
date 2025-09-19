@@ -10,19 +10,6 @@ This repository contains a **blog application** built with **Node.js microservic
 * **comments** – CRUD for comments, tied to posts, moderation support.
 * **ui** – Bootstrap frontend to interact with the API.
 
-## Local Development
-
-1. Copy `.env.example` ➜ `.env` in each service folder.
-2. Start the stack:
-
-   ```bash
-   docker compose up --build
-   ```
-3. Access:
-
-   * UI: [http://localhost:8080](http://localhost:8080)
-   * API Gateway: [http://localhost:3000](http://localhost:3000)
-
 ## Security & CI/CD
 
 * **Shift-left:** Gitleaks (secrets), Semgrep (SAST), Trivy (container scan), OWASP ZAP (DAST).
